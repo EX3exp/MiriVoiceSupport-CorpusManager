@@ -1,0 +1,35 @@
+{
+    "title_displayed": "aihub Animation Corpus",
+    "language": "KOR", 
+    "corpus_identifier": "AA",
+    "styles": [
+        {
+            "style": "normal",
+            "speaker_id": 0,
+            "reclist_filename" : "reclist_normal.txt",
+            "comments_filename" : "reclist_normal-comment.txt",
+            "ipa_filename" : "ipa_normal.txt"
+        },
+        {
+            "style": "bright",
+            "speaker_id": 1,
+            "reclist_filename" : "reclist_bright.txt",
+            "comments_filename" : "reclist_bright-comment.txt",
+            "ipa_filename" : "ipa_bright.txt"
+        },
+        {
+            "style": "sad",
+            "speaker_id": 2,
+            "reclist_filename" : "reclist_sad.txt",
+            "comments_filename" : "reclist_sad-comment.txt",
+            "ipa_filename" : "ipa_sad.txt"
+        },
+        {
+            "style": "angry",
+            "speaker_id": 3,
+            "reclist_filename" : "reclist_angry.txt",
+            "comments_filename" : "reclist_angry-comment.txt",
+            "ipa_filename" : "ipa_angry.txt"
+        }
+    ]
+}
