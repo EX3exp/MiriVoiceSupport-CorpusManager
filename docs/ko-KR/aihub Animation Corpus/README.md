@@ -20,7 +20,11 @@
 
 ## 3. Model Inference Sample
 
-<audio src="Misc\sample_miri.wav" controls preload></audio>
+
+
+https://github.com/user-attachments/assets/21ac584a-b7a8-490e-820b-a12243ffc37e
+
+
 
 > 하고 싶은 거 다 해봐, 원하는 건 뭐든 다 이룰 수 있을 거야, 너라면 할 수 있어!
 
