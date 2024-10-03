@@ -20,7 +20,8 @@
 
 ## 3. 모델 출력 음성 샘플
 
-<audio src="Misc\sample_miri.wav" controls preload></audio>
+
+https://github.com/user-attachments/assets/6895d499-6da5-427b-9656-24853b782bf4
 
 > 하고 싶은 거 다 해봐, 원하는 건 뭐든 다 이룰 수 있을 거야, 너라면 할 수 있어!
 
