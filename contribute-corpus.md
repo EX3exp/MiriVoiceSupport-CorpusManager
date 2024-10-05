@@ -32,7 +32,7 @@
         > ⚠️To use `Tools` -> `Transcription IPA Converter`, file's Each line should be: <br>
         > ```<recorded sample's name>|<speaker id>|<sentence before transcription>.```
 
-        > ⚠️For Korean Corpus, `MiriVoice`'s current g2p is kinda incomplete, It's highly recommended to use `g2pk` or `g2pk2` or `g2pk3` first before using  `Tools` -> `Transcription IPA Converter`. 
+        > ⚠️For Korean Corpus, `MiriVoice`'s current Korean g2p is kinda incomplete, It's highly recommended to use `g2pk` or `g2pk2` or `g2pk3` first before using  `Tools` -> `Transcription IPA Converter`. 
         - You can use [ipa phonemes which contained in this list](https://github.com/AdamSteffanick/ipa-data/blob/master/guid-o-matic/ipa-data/ipa-data.csv), `<space>`, `<bos>`, `<eos>`, `<pad>`, `;`, `:`, `,`, `.`, `!`, `?`, `¡`, `¿`, `—`, `…`, `\`, `"`, `«`, `»`, `“`, `”`,` `only.
         
             (You can use '` `', **but Note that `MiriVoice`'s phonemizer system uses `<space>` instead of '` `'.**)
