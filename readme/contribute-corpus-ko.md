@@ -3,7 +3,7 @@
 [<img src="..\Misc\title.png" height="57"/>](https://github.com/EX3exp/MiriVoice)
 
 📜🧐 :
-[English](..\contribute-corpus.md) | [한국어](contribute-corpus-ko.md)
+[English](../contribute-corpus.md) | [한국어](contribute-corpus-ko.md)
 #### [KO]
 
 ## 📚1. 기여하기 전에...
