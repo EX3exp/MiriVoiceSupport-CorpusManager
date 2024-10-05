@@ -15,14 +15,14 @@
 2. Recording list for [Recstar](https://github.com/sdercolin/recstar) - `reclist_<style>.txt`
     - Each recorded sample's name should be:
 
-        ```MV-<language>-<corpus_identifier>-<style>_<speaker_id>-<file number>```
+            MV-<language>-<corpus_identifier>-<style>_<speaker_id>-<file number>
 
-        (e.g) `MV-KOR-AA-ANGRY_3-000`
+        (e.g) `MV-KOR-AA-ANGRY_3-000.wav`
 
 3. Recording comment list for [Recstar](https://github.com/sdercolin/recstar) - `reclist_<style>-comment.txt`
     - Each lines should be:
 
-        ```<recorded sample's name> <sentence to record>```
+            <recorded sample's name> <sentence to record>
 
         (e.g) `MV-KOR-AA-NORMAL_0-350 아리스토텔레스의 철자 알고 있는 사람?`
 
@@ -43,25 +43,27 @@
         - Please replace '` `' with `<space>`.
 
 
-            (e.g) `<pad>	<bos>	h	a	n	j	ʌ	h	a	n	t	ʰ	ɛ	<space>	i	ɭ	<space>	s	i	k	ʰ	i	d	ɯ	t	̚	<space>	s	͈	o	m	a	ŋ	i	ɛ	g	ɛ	<space>	i	ɭ	<space>	s	i	k	ʰ	i	d	ʑ	i	<space>	m	a	!	<eos>	<pad>`
+            (e.g) 
+            
+                <pad>	<bos>	h	a	n	j	ʌ	h	a	n	t	ʰ	ɛ	<space>	i	ɭ	<space>	s	i	k	ʰ	i	d	ɯ	t	̚	<space>	s	͈	o	m	a	ŋ	i	ɛ	g	ɛ	<space>	i	ɭ	<space>	s	i	k	ʰ	i	d	ʑ	i	<space>	m	a	!	<eos>	<pad>
     - Each lines should be:
 
-        ```<recorded sample's name>|<speaker id>|<transcription>```
+            <recorded sample's name>|<speaker id>|<transcription>
 
         (e.g) Korean Corpus
 
         Original:
 
-        ```MV-KOR-AA-NORMAL_0-012|0|의약분업 이후 총요양급여비용을 구십 팔 년에는 의원급이 삼조 오천 사백 십 육억 원으로 더 썼잖아.```
+            MV-KOR-AA-NORMAL_0-012|0|의약분업 이후 총요양급여비용을 구십 팔 년에는 의원급이 삼조 오천 사백 십 육억 원으로 더 썼잖아.
 
 
         After `g2pk3`:
 
-        ```MV-KOR-AA-NORMAL_0-012|0|의약뿌넙 이후 총요양그벼비용을 구십 팔 려네는 의원그비 삼조 오천 사백 씹 유걱 워느로 더 썯짜나.```
+            MV-KOR-AA-NORMAL_0-012|0|의약뿌넙 이후 총요양그벼비용을 구십 팔 려네는 의원그비 삼조 오천 사백 씹 유걱 워느로 더 썯짜나.
 
         After `Tools` -> `Transcription IPA Converter`:
 
-        ```MV-KOR-AA-NORMAL_0-012|0|<pad>	<bos>	ɰ	i	j	a	k	̚	p	͈	u	n	ʌ	p	̚	<space>	b	i	h	u	<space>	t	ɕ	h	o	ŋ	j	o	j	a	ŋ	g	ɯ	b	j	ʌ	b	i	j	o	ŋ	ɯ	ɭ	<space>	g	u	s	i	p	̚	<space>	p	ʰ	a	ɭ	<space>	ɾ	j	ʌ	n	ɛ	n	ɯ	n	<space>	n	ɰ	i	w	ʌ	ŋ	g	ɯ	b	i	<space>	s	a	m	d	ʑ	o	<space>	o	t	ɕ	h	ʌ	n	<space>	s	a	b	ɛ	k	̚	<space>	s	͈	i	p	̚	<space>	b	j	u	g	ʌ	k	̚	<space>	g	w	ʌ	n	ɯ	ɾ	o	<space>	d	ʌ	<space>	s	͈	ʌ	t	̚	t	s	͈	a	n	a	.	<eos>	<pad>```
+            MV-KOR-AA-NORMAL_0-012|0|<pad>	<bos>	ɰ	i	j	a	k	̚	p	͈	u	n	ʌ	p	̚	<space>	b	i	h	u	<space>	t	ɕ	h	o	ŋ	j	o	j	a	ŋ	g	ɯ	b	j	ʌ	b	i	j	o	ŋ	ɯ	ɭ	<space>	g	u	s	i	p	̚	<space>	p	ʰ	a	ɭ	<space>	ɾ	j	ʌ	n	ɛ	n	ɯ	n	<space>	n	ɰ	i	w	ʌ	ŋ	g	ɯ	b	i	<space>	s	a	m	d	ʑ	o	<space>	o	t	ɕ	h	ʌ	n	<space>	s	a	b	ɛ	k	̚	<space>	s	͈	i	p	̚	<space>	b	j	u	g	ʌ	k	̚	<space>	g	w	ʌ	n	ɯ	ɾ	o	<space>	d	ʌ	<space>	s	͈	ʌ	t	̚	t	s	͈	a	n	a	.	<eos>	<pad>
 
 5. `<language>-<corpus_identifier>.json`
     - `<language>`: Three-Lettered Language code **which corresponds with `CultureInfo.ThreeLetterWindowsLanguageName` in C#**, (e.g) KOR(ko-KR), ENU(en-US). 
