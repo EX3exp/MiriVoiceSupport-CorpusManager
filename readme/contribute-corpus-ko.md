@@ -86,7 +86,7 @@
     ```
 ## 📚3. 예시
 1. *aihub 애니체 말뭉치 (KOR-AA)*.
-- [문서 작성 예](docs/ko-KR/aihub%20Animation%20Corpus/README.md)
+- [문서 작성 예](../docs/ko-KR/aihub%20Animation%20Corpus/README-ko.md)
      
 - [`<언어>-<말뭉치 식별자>.json` 예](https://github.com/EX3exp/MiriVoiceSupport-CorpusManager/blob/main/datas/KOR-AA.json)
      
