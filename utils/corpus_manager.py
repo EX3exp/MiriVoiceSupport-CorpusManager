@@ -7,7 +7,6 @@ def gen_dictionary():
 
     data = {}
     for json_file in glob.glob('datas/*.json'):
-        print(json_file)
         with open(json_file, 'r') as f:
             data = json.load(f)
         

@@ -1,4 +1,4 @@
-### MiriVoice - CorpusManager - KOR - aihub Animation Corpus
+### MiriVoice - CorpusManager - KOR - aihub 애니체 말뭉치
 <img src="..\..\..\Misc\title.png" height="57"/>
 
 📜🧐 :
