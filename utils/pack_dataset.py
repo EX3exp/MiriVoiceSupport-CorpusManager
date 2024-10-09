@@ -23,11 +23,15 @@ if __name__ == '__main__':
     # split train/val sets
     recfiles = [f for f in recfiles if f.endswith('.wav')]
 
-    random.shuffle(recfiles)
-    split_index = int(len(recfiles) * 0.95)
+    if len(recfiles) < 400:
+        val = [recfiles.pop()]
+        train = recfiles
+    else:
+        random.shuffle(recfiles)
+        split_index = int(len(recfiles) * 0.9)
 
-    train = recfiles[:split_index]  
-    val = recfiles[split_index:]
+        train = recfiles[:split_index]  
+        val = recfiles[split_index:]
 
     for f in train:
         shutil.move(f'tmp/{f}', f'dataset/train/{f}')
