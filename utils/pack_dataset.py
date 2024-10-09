@@ -24,7 +24,7 @@ if __name__ == '__main__':
     recfiles = [f for f in recfiles if f.endswith('.wav')]
 
     random.shuffle(recfiles)
-    split_index = int(len(recfiles) * 0.9)
+    split_index = int(len(recfiles) * 0.95)
 
     train = recfiles[:split_index]  
     val = recfiles[split_index:]
